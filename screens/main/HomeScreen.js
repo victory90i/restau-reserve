@@ -20,14 +20,15 @@
 
 // import React from 'react';
 import {
+  View,
   Text,
   StyleSheet,
   ScrollView,
   TextInput,
   TouchableOpacity,
-  SafeAreaView,
   Dimensions,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 // import { Dimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Icon from 'react-native-vector-icons/Ionicons';
